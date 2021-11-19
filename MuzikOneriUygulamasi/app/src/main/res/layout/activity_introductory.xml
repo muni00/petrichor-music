@@ -13,6 +13,7 @@
         android:layout_width="410dp"
         android:layout_height="735dp"
         android:scaleType="centerCrop"
+        android:elevation="2dp"
         android:src="@drawable/bg1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +26,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/bg_logo"
+        android:elevation="2dp"
         app:layout_constraintVertical_bias=".1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,22 +38,38 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:src="@drawable/app_name"
+        android:elevation="2dp"
         app:layout_constraintVertical_bias="0.0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"/>
 
-<com.airbnb.lottie.LottieAnimationView
+    <com.airbnb.lottie.LottieAnimationView
     android:id="@+id/lottie"
     app:lottie_autoPlay="true"
     android:layout_width="wrap_content"
     android:layout_height="300dp"
+    android:elevation="2dp"
     app:layout_constraintVertical_bias="0.0"
     app:lottie_rawRes="@raw/splash"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@+id/app_name"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/lg_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
