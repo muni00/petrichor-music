@@ -2,7 +2,6 @@ package com.muazzeznihalbahadir.muzikoneriuygulamasi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.material.tabs.TabLayout
 import com.muazzeznihalbahadir.muzikoneriuygulamasi.adapter.LoginAdapter
 import com.muazzeznihalbahadir.muzikoneriuygulamasi.databinding.ActivityLoginBinding
 

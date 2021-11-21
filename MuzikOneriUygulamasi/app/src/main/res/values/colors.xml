@@ -9,10 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--tema renkleri-->
-    <color name="blackPearl">#082032</color>
-    <color name="pickledBluewood">#2C394B</color>
-    <color name="sPinkedBluewood">#334756</color>
-    <color name="redOrange">#FF4C29</color>
-    <color name="rock">#F3F0D7</color>
+    <color name="blackPearl">#1F1D36</color>
+    <color name="pickledBluewood">#3F3351</color>
+    <color name="sPinkedBluewood">#827397</color>
+    <color name="stone">#D6D5D5</color>
+    <color name="rock">#DDDDDD</color>
 
 </resources>
