@@ -10,8 +10,8 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="324dp"
-        android:layout_height="55dp"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Email"
         android:paddingLeft="20dp"
@@ -29,8 +29,8 @@
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="325dp"
-        android:layout_height="59dp"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Şifre"
@@ -48,6 +48,7 @@
         app:layout_constraintWidth_percent=".8" />
 
     <Button
+        android:id="@+id/buttonLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintVertical_bias=".7"

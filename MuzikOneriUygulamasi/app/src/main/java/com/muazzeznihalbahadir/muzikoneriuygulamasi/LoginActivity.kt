@@ -2,8 +2,11 @@ package com.muazzeznihalbahadir.muzikoneriuygulamasi
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import com.google.firebase.auth.FirebaseAuth
 import com.muazzeznihalbahadir.muzikoneriuygulamasi.adapter.LoginAdapter
 import com.muazzeznihalbahadir.muzikoneriuygulamasi.databinding.ActivityLoginBinding
+import com.muazzeznihalbahadir.muzikoneriuygulamasi.databinding.FragmentSignupTabBinding
 
 
 class LoginActivity : AppCompatActivity() {
@@ -25,6 +28,7 @@ class LoginActivity : AppCompatActivity() {
         binding.lgViewPager.adapter = adapter
         //Tablar arasında yani viewPager'lar arasında geçisi sağlıyoruz
         binding.tabLayout.setupWithViewPager(binding.lgViewPager)
+
 
 
     }
