@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">MuzikOneriUygulamasi</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="notification_channel_name">Music Channel</string>
-    <string name="notification_channel_description">Shows the currently playing music</string>
-    <string name="hava_bug_n_nas_sen_nas_ls_n_sana_sevindirecek_haberlerim_var_hadi_devam_et" />
-    <string name="title_activity_maps">MapsActivity</string>
-</resources>
