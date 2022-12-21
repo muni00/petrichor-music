@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Petrichor</string>
+    <string name="GOOGLE_API_KEY">AIzaSyDouHkw5ZonMWnkMLwPRWuxYgd8x5GDbSk</string>
+    <string name="buttonText">Call YouTube Data API</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="error_message">Hata !!</string>
+    <string name="page_favorilerim">Favorilerim</string>
+
+</resources>

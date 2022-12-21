@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".View.OptionsActivity">
+
+    <ImageView
+        android:id="@+id/ivwHD"
+        android:layout_width="195dp"
+        android:layout_height="187dp"
+        android:background="@drawable/bnb_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        app:srcCompat="@drawable/ic_self_care" />
+
+    <ImageView
+        android:id="@+id/ivwFD"
+        android:layout_width="195dp"
+        android:layout_height="187dp"
+        android:background="@drawable/bnb_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivwHD"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@drawable/ic_face" />
+
+    <TextView
+        android:id="@+id/txtFD"
+        android:layout_width="186dp"
+        android:layout_height="57dp"
+        android:text="YÜZ DUYGU ANALİZİNE GÖRE"
+        android:textAlignment="center"
+        android:textColor="@color/stone"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivwFD"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/txtHD"
+        android:layout_width="202dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="392dp"
+        android:text="HAVA DURUMUNA GÖRE "
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1"
+        android:textAlignment="center"
+        android:textColor="@color/stone"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivwHD"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

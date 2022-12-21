@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#827397</color>
+    <color name="purple_500">#827397</color>
+    <color name="purple_700">#1F1D36</color>
+    <color name="teal_200">#D6D5D5</color>
+    <color name="teal_700">#DDDDDD</color>
+    <color name="black">#1F1D36</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--tema renkleri-->
+    <color name="blackPearl">#1F1D36</color>
+    <color name="pickledBluewood">#3F3351</color>
+    <color name="sPinkedBluewood">#827397</color>
+    <color name="Pink">#E9D5DA</color>E9D5DA
+    <color name="stone">#D6D5D5</color>
+    <color name="rock">#DDDDDD</color>
+    <color name="nav_500">#4D4C7D</color>
+</resources>

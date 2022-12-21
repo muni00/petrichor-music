@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity"
+    android:id="@+id/body_container"
+    android:background="@drawable/main_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/bir"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/stars"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.042" />
+
+            <ImageView
+                android:id="@+id/iki"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+
+                android:src="@drawable/mix"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintStart_toEndOf="@+id/bir"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.04" />
+
+            <ImageView
+                android:id="@+id/uc"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="16dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/alterrnatif"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bir"
+                app:layout_constraintVertical_bias="0.01" />
+
+            <ImageView
+                android:id="@+id/dort"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="20dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/sakin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintStart_toEndOf="@+id/uc"
+                app:layout_constraintTop_toBottomOf="@+id/iki"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/bes"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="20dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/demo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uc"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/alti"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="16dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/blow"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintStart_toEndOf="@+id/bes"
+                app:layout_constraintTop_toBottomOf="@+id/dort"
+                app:layout_constraintVertical_bias="0.021" />
+
+            <ImageView
+                android:id="@+id/yedi"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="12dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/biseyler"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintStart_toEndOf="@+id/sekiz"
+                app:layout_constraintTop_toBottomOf="@+id/alti" />
+
+            <ImageView
+                android:id="@+id/sekiz"
+                android:layout_width="166dp"
+                android:layout_height="164dp"
+                android:layout_marginTop="12dp"
+                android:background="#0DCABFDD"
+                android:scaleType="centerInside"
+                android:src="@drawable/anadolu"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bes" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bnb_shape"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/item_menu" />
+</RelativeLayout>
